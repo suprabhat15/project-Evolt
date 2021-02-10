@@ -1,4 +1,4 @@
-Folder Structure
+## Folder Structure
 ```
 ├── assets
 ├── components
@@ -16,6 +16,35 @@ Folder Structure
        └── landing
                 
 ```
+
+
+The main page is the " landing page " where we will be redirected with path url ```http://localhost:3000/```. Any other url will redirect us to ``` 404 page ```. This redirecting has been implemented using React Router Dom. 
+
+The ``` Landing Page ``` has been divided into two segments :-
+   1. MainSection
+   2. Sidebar
+   
+MainSection is comprised of two divs "large-image" and "textual-content". 
+
+  The "large-image" div has two images :-
+  
+     1. One with className "large-photo"
+     2. Other with className "small-photo"
+    
+      
+  The ```textual-content``` div has section named ```ParagraphTitle``` and ```MainSectionList```(where list of Accordion Items are embedded).
+      
+  The ```ParagraphTitle``` consists of a **title** and **Paragraphs**.
+  
+  
+  Sidebar is comprised of ``` SidebarList ``` (where list of Accordion Items are embedded).
+  
+  ``` The entire page is responsive and at the same time Sidebar has been fixed. ```
+  
+      
+     
+
+
 
 
 # Getting Started with Create React App
