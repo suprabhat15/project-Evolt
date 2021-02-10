@@ -1,3 +1,23 @@
+Folder Structure
+```
+├── assets
+├── components
+       └── MainSection
+       └── MainSectionList
+       └── Sidebar
+       └── SidebarList
+ ├── data
+       └── mainSection
+              └── titles
+       └── sidebar
+              └── titles
+ ├── pages
+       └── 404 
+       └── landing
+                
+```
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
